@@ -1,0 +1,24 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:csf="http://schemas.datacontract.org/2004/07/Csf.Core.Base.Service.Communication" xmlns:csf1="http://schemas.datacontract.org/2004/07/Csf.Core.Base.Service.Validation" xmlns:csf2="http://schemas.datacontract.org/2004/07/Csf.Cobr.Svc.Cobranca.Contrato.Pacote.Divida">
+   <soapenv:Header>
+    <TokenPlataformaRelacionamento>
+    TDa5h5R9gOFO1WTD3JU0J2y2UxKW9PzQ3qXFKbb8GWOQjKVhCiPlVDE1wH4EpWXALl05S5gAmAzBGSaVcoEtvCEhUpF6K5jV3A9lQFQ+4ns=
+    </TokenPlataformaRelacionamento>
+</soapenv:Header>
+   <soapenv:Body>
+      <tem:ConsultarPromessaDePagamento>
+         <!--Optional:-->
+         <tem:solicitacao>
+            <!--Optional:-->
+            <csf:CanalSolicitacao>FUN</csf:CanalSolicitacao>
+            <!--Optional:-->
+            <csf:ChaveSolicitacao>1234</csf:ChaveSolicitacao>
+            <!--Optional:-->
+            <csf2:CPF>12345678910</csf2:CPF>
+            <!--Optional:-->
+            <csf2:Contrato>contrato</csf2:Contrato>
+            <!--Optional:-->
+            <csf2:IdEmpresa>1</csf2:IdEmpresa>
+         </tem:solicitacao>
+      </tem:ConsultarPromessaDePagamento>
+   </soapenv:Body>
+</soapenv:Envelope>

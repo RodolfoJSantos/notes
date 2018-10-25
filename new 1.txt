@@ -1,0 +1,41 @@
+\\192.168.2.3\public\_Instalar
+
+\\10.113.65.69  
+
+btn continuar
+
+ctrl - 
+
+publish, dpois abrir pasta copiar todos arquivos menos os webconfigs 
+
+
+ex:
+
+servidor para colar os arquivos da publish
+colar na pasta com mesmo nome do projeto
+\\10.113.65.69
+
+acessar servidor remoto dar iisreset 
+
+csfcpv\11187711683
+stephen_verity
+
+
+cpf 68779299261
+
+
+
+
+krivo validação =  com apis de consulta spcserasa para ver se aprova o cadastro de proposta
+
+workflow =  aprova ou desaprova proposta
+service broker = fila de cadastros
+
+
+
+
+..:: Nova PR Utils ::..
+ * Novos métodos devem ser anotados com "[MappingTransaction("[NOME_TRASACAO_CADASTRADA]")]"
+ * Caso ainda não tenha transação cadastrada no SM, utilizar anotação "[MethodWithoutToken]"
+
+

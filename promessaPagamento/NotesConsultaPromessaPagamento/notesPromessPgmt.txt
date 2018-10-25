@@ -1,0 +1,7 @@
+Dir
+Dominio > Prj
+dominio, dentro do Gerenciador divida: Método de consulta da promessa de pagamento
+facade: class com 3 subclasses:  efetua a confirmação de um acordo com conforme a opção escolhida pelo cliente
+Método que efetua a execução do método ConfirmarAcordo
+classes paramentros de entrada e class param saida
+model: criada classe com param de saida

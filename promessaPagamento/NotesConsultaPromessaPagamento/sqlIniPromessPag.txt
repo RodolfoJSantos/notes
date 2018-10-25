@@ -1,0 +1,14 @@
+use corporativo 
+
+select * from tb_configparametro where nm_param = 'Csf.External.Cobranca.Cyber.Divida.AddressService'
+select * from tb_configparametro where nm_param = 'Csf.External.Cobranca.Cyber.Promessa.AddressService'
+
+select * from tb_configparametro where vl_PARAM like '%Promessa%'
+
+select * from tb_configparametro order by id_configparam desc 
+
+insert into tb_configparametro ( nm_param, vl_param, dt_alt, nm_usualt)
+VALUES (  'Csf.External.Cobranca.Cyber.Promessa.AddressService','http://10.113.65.90:8080/con_ppwcarrefour-war/ConsultarPromessaServiceRefContrato?WSDL',getdate(),'Rodolfo.Santos');
+
+INSERT INTO TB_CONFIGPARAMETRO_SISTEMA (CD_SIST, CD_CONFIGPARAM) VALUES (59, 7718);
+

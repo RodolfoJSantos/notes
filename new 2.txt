@@ -1,0 +1,6 @@
+banco certificação
+
+Certificação   
+S: 10.113.65.135
+U: platrel       
+P: platrel  
