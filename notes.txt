@@ -4,3 +4,8 @@
 
 wifJust
 BeBa+Agua_Sempre
+
+
+Fallback significa "plano B" ou plano de emergência, ou seja se a configuração definida pelo programador falhar ainda vai existir uma opção padrão que assumirá um valor válido.
+
+Não tem nenhuma correspondência com o termo rollback.
